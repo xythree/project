@@ -1,0 +1,36 @@
+{
+    "pages": [
+        "page/component/index",
+        "page/component/content/index"
+    ],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "cnodejs.org演示",
+        "navigationBarBackgroundColor": "#fbf9fe",
+        "backgroundColor": "#fbf9fe"
+    },
+    "tabBar": {
+        "color": "#dddddd",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#ffffff",
+        "list": [{
+            "pagePath": "page/component/index",
+            "iconPath": "image/wechat.png",
+            "selectedIconPath": "image/wechatHL.png",
+            "text": "HOME"
+        }, {
+            "pagePath": "page/component/content/index",
+            "iconPath": "image/wechat.png",
+            "selectedIconPath": "image/wechatHL.png",
+            "text": "SELF"
+        }]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}
